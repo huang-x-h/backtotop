@@ -1,6 +1,6 @@
 # Back to top
 
-Back to top jQuery Component
+Back to top jQuery Component base on http://jsfiddle.net/gilbitron/Lt2wH/
 
 <img src="screenshot.gif" width="384">
 
