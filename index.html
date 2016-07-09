@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>BackToTop</title>
+  <link rel="stylesheet" href="./dist/backtotop.css">
+  <style>
+    #content {
+      height: 2000px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="content">Scroll &darr;</div>
+  <a href="#" class="backtotop" title="Back to top">&uarr;</a>
+
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+  <script src="./dist/backtotop.js"></script>
+  <script>
+    $.backtotop($('.backtotop'))
+  </script>
+</body>
+
+</html>
