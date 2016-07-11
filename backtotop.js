@@ -29,9 +29,9 @@ $.backtotop = function(element) {
 
   var debouncer = new Debouncer(function() {
     if ($(window).scrollTop() > offset) {
-      $el.addClass('show')
+      $el.fadeIn()
     } else {
-      $el.removeClass('show')
+      $el.fadeOut()
     }
   })
 
